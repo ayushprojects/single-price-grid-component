@@ -12,8 +12,16 @@ body{
     margin: auto;
     background-color: white;
     margin-top: 2rem;
+    box-shadow: 5px 5px 15px rgb(152, 152, 152);
+    border-radius: 10px;
 }
 .row1{
+    height: 17rem;
+    width: 50rem;
+  
+  
+}
+.row1-content{
     padding: 2.3rem;
 }
 .row1 h2{
@@ -32,6 +40,78 @@ body{
     width: 40rem;
     line-height: 2rem;
 }
+
+
 .row2{
     display: flex;
+    justify-content: space-around;
+  
+}
+.col-1{
+    width: 25rem;
+    height: 18rem;
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    border-bottom-left-radius: 10px;
+}
+
+.col-1-content{
+    padding: 2.3rem;
+}
+#col1-heading{
+    font-size: 1.3rem;
+    letter-spacing: 2px                                                                                             ;
+    font-weight: 600;
+}
+
+#col1-price{
+    font-size: 2.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    color: white;
+   
+}
+#col1-rupee{
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    padding-left: 2rem;
+}
+.col-1-content p{
+   letter-spacing: 1px;
+}
+#col1-btn{
+                background-color: hsl(71, 73%, 54%);
+                padding: 20px 100px;
+                border-style: none;
+               margin-left: 2rem;
+               margin-top: 1rem;
+               border-radius: 5px;
+               box-shadow: 2px 2px 20px rgb(124, 123, 123);
+               cursor: pointer;
+                color: white;
+                font-size: larger;
+                letter-spacing: 1px;
+}
+.col-2{
+    width: 25rem;
+    height: 18rem;
+    background-color: hsl(179, 48%, 41%);
+   color: hsl(204, 43%, 93%);
+   border-bottom-right-radius: 10px;
+}
+.col-2-content{
+    padding: 2.3rem;
+}
+
+#question{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+#text{
+    margin-top: 1.4rem;
+    line-height: 1.4rem
+}
+
+.credit{
+  text-align: center;
 }
