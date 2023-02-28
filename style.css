@@ -7,10 +7,10 @@ body{
 
 
 .container{
-    height: 40rem;
-    width: 60rem;
+    height: 35rem;
+    width: 50rem;
     margin: auto;
-    background-color: grey;
+    background-color: white;
     margin-top: 2rem;
 }
 .row1{
@@ -18,6 +18,19 @@ body{
 }
 .row1 h2{
     color: hsl(179, 62%, 43%);
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.row1 h3{
+    color: hsl(71, 73%, 54%);
+    letter-spacing: 2px;
+    font-weight: 600;
+  
+}
+#row1-para{
+    color: hsl(218, 22%, 67%);
+    width: 40rem;
+    line-height: 2rem;
 }
 .row2{
     display: flex;
